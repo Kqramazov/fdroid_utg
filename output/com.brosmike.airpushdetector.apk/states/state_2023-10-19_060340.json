@@ -1,0 +1,493 @@
+{
+  "tag": "2023-10-19_060340",
+  "state_str": "da98cbc11a47d5b1ba6324641068f1db",
+  "state_str_content_free": "cf7e5f60c0a32f34ab67a7a069e242d0",
+  "foreground_activity": "com.brosmike.airpushdetector/.ReportActivity",
+  "activity_stack": [
+    "com.brosmike.airpushdetector/.ReportActivity",
+    "com.brosmike.airpushdetector/.DetectorActivity"
+  ],
+  "background_services": [
+    "android.ext.services/.notification.Assistant",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices",
+    "org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices",
+    "com.android.systemui/.ImageWallpaper",
+    "com.android.launcher3/.notification.NotificationListener",
+    "com.android.networkstack.inprocess/com.android.server.NetworkStackService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.android.systemui/.SystemUIService",
+    "com.omarea.vtools/.AccessibilityScenceMode",
+    "com.android.launcher3/com.android.quickstep.TouchInteractionService",
+    "org.mozilla.firefox/org.mozilla.fenix.session.PrivateNotificationService",
+    "com.thundercomm.localhost/.vhosts.VhostsService"
+  ],
+  "width": 2340,
+  "height": 1080,
+  "views": [
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*1776",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "3b7121647dbdfcf48558735afd7f4eb2",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2,
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "android:id/decor_content_parent",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*1776",
+      "signature": "[class]android.view.ViewGroup[resource_id]android:id/decor_content_parent[text]None[enabled,,]",
+      "view_str": "874ca270f02ac9d43098a948ccc4dddb",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]android:id/decor_content_parent"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          72
+        ],
+        [
+          1080,
+          240
+        ]
+      ],
+      "resource_id": "android:id/action_bar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/action_bar_container[text]None[enabled,,]",
+      "view_str": "487d87e3e475233224cddae865b50462",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/action_bar_container"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4,
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          72
+        ],
+        [
+          1080,
+          240
+        ]
+      ],
+      "resource_id": "android:id/action_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*168",
+      "signature": "[class]android.view.ViewGroup[resource_id]android:id/action_bar[text]None[enabled,,]",
+      "view_str": "4768339a9c847052cd06e97f78b1bd91",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]android:id/action_bar"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          115
+        ],
+        [
+          502,
+          196
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "AirPush Detector",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "454*81",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]AirPush Detector[enabled,,]",
+      "view_str": "68a54f85f3b1bae1d632fdcb5769fc27",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          72
+        ],
+        [
+          1080,
+          240
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 5,
+      "size": "0*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "26f0456ccc0a62a252a13c8a33db1dc4",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          240
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 6,
+      "size": "1080*1536",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "bd1fc6ab663bca1890fee25678e1c5db",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          240
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*1536",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "483cc73b305f7c1dfa70fe57cf93060c",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          240
+        ],
+        [
+          1080,
+          1612
+        ]
+      ],
+      "resource_id": "com.brosmike.airpushdetector:id/report_text",
+      "checked": false,
+      "text": "Sorry - I couldn't find any apps with notification ads.\n\nIf you're seeing notification ads anyway, there's probably a new advertising company the detector doesn't know about yet.\n\nIf you'd like to help, you can use the button below to email a list of your installed apps to me (the detector developer).\n\nThis is completely optional, and you'll be able to see everything that's being sent before it goes out. Your email address and installed applications will not be shared with anyone else, and I won't send you spam.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1080*1372",
+      "signature": "[class]android.widget.TextView[resource_id]com.brosmike.airpushdetector:id/report_text[text]None[enabled,,]",
+      "view_str": "ac5b22b5dbe3aaa95b3c3e33aba1ee99",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.brosmike.airpushdetector:id/report_text"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1612
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "com.brosmike.airpushdetector:id/button_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "1080*164",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.brosmike.airpushdetector:id/button_bar[text]None[enabled,,]",
+      "view_str": "e523df0911e7f4240de9304dcd26362d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.brosmike.airpushdetector:id/button_bar"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          12,
+          1627
+        ],
+        [
+          540,
+          1771
+        ]
+      ],
+      "resource_id": "com.brosmike.airpushdetector:id/no_report_button",
+      "checked": false,
+      "text": "NO, THANKS",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "528*144",
+      "signature": "[class]android.widget.Button[resource_id]com.brosmike.airpushdetector:id/no_report_button[text]NO, THANKS[enabled,,]",
+      "view_str": "dced72100eb9266cadfb2e58cff4c96d",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.brosmike.airpushdetector:id/no_report_button"
+    },
+    {
+      "package": "com.brosmike.airpushdetector",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          1627
+        ],
+        [
+          1068,
+          1771
+        ]
+      ],
+      "resource_id": "com.brosmike.airpushdetector:id/report_button",
+      "checked": false,
+      "text": "I'D LIKE TO HELP!",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "528*144",
+      "signature": "[class]android.widget.Button[resource_id]com.brosmike.airpushdetector:id/report_button[text]I'D LIKE TO HELP![enabled,,]",
+      "view_str": "ad5d54d50f3d846d9b625771f03a5257",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.brosmike.airpushdetector:id/report_button"
+    }
+  ]
+}

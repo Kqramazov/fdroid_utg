@@ -1,0 +1,88 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1d95520 com.chancehorizon.just24hoursplus/.theClockActivity filter 700ff7a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.appwidget.action.APPWIDGET_UPDATE:
+        8392ed9 com.chancehorizon.just24hoursplus/.just24Widget filter ba0232b
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        175409e com.chancehorizon.just24hoursplus/.Just24DateWidget filter c284388
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+
+Registered ContentProviders:
+  com.chancehorizon.just24hoursplus/androidx.startup.InitializationProvider:
+    Provider{d0d77f com.chancehorizon.just24hoursplus/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.chancehorizon.just24hoursplus.androidx-startup]:
+    Provider{d0d77f com.chancehorizon.just24hoursplus/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{5cea34c com.chancehorizon.just24hoursplus}
+
+Key Set Manager:
+  [com.chancehorizon.just24hoursplus]
+      Signing KeySets: 23
+
+Packages:
+  Package [com.chancehorizon.just24hoursplus] (784df95):
+    userId=10084
+    pkg=Package{1f0c8aa com.chancehorizon.just24hoursplus}
+    codePath=/data/app/com.chancehorizon.just24hoursplus-_JwR2aLWokUyk8Qe9M2IoQ==
+    resourcePath=/data/app/com.chancehorizon.just24hoursplus-_JwR2aLWokUyk8Qe9M2IoQ==
+    legacyNativeLibraryDir=/data/app/com.chancehorizon.just24hoursplus-_JwR2aLWokUyk8Qe9M2IoQ==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=10401 minSdk=19 targetSdk=31
+    versionName=1.4.1
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{5cea34c com.chancehorizon.just24hoursplus}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE ]
+    dataDir=/data/user/0/com.chancehorizon.just24hoursplus
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-10-19 01:41:25
+    firstInstallTime=2023-10-19 01:41:25
+    lastUpdateTime=2023-10-19 01:41:25
+    signatures=PackageSignatures{e256c9b version:3, signatures:[cfb6810e], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    User 0: ceDataInode=677881 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=23
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=21, package=io.github.ylimit.droidbotapp
+    seq=22, package=com.chancehorizon.just24hoursplus
+
+
+Dexopt state:
+  [com.chancehorizon.just24hoursplus]
+    path: /data/app/com.chancehorizon.just24hoursplus-_JwR2aLWokUyk8Qe9M2IoQ==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [com.chancehorizon.just24hoursplus]
+     base.apk - 698
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

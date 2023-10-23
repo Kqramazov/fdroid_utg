@@ -1,0 +1,130 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1d770b5 de.szalkowski.activitylauncher/.MainActivity filter 2e22ec3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.LEANBACK_LAUNCHER"
+      android.intent.action.VIEW:
+        e10534a de.szalkowski.activitylauncher/.RootLauncherActivity filter 25f8340
+          Action: "android.intent.action.VIEW"
+      activitylauncher.intent.action.LAUNCH_SHORTCUT:
+        b9032bb de.szalkowski.activitylauncher/.ShortcutActivity filter 289279
+          Action: "activitylauncher.intent.action.LAUNCH_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        37cc3d8 de.szalkowski.activitylauncher/androidx.profileinstaller.ProfileInstallReceiver filter 459936c
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        37cc3d8 de.szalkowski.activitylauncher/androidx.profileinstaller.ProfileInstallReceiver filter 7d6bbe
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        37cc3d8 de.szalkowski.activitylauncher/androidx.profileinstaller.ProfileInstallReceiver filter f2ef41f
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        37cc3d8 de.szalkowski.activitylauncher/androidx.profileinstaller.ProfileInstallReceiver filter 696dd35
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+
+Permissions:
+  Permission [de.szalkowski.activitylauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (db6331):
+    sourcePackage=de.szalkowski.activitylauncher
+    uid=10100 gids=null type=0 prot=signature
+    perm=Permission{e885a16 de.szalkowski.activitylauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    packageSetting=PackageSetting{e853f97 de.szalkowski.activitylauncher/10100}
+
+Registered ContentProviders:
+  de.szalkowski.activitylauncher/androidx.startup.InitializationProvider:
+    Provider{de64584 de.szalkowski.activitylauncher/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [de.szalkowski.activitylauncher.androidx-startup]:
+    Provider{de64584 de.szalkowski.activitylauncher/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{c52016d de.szalkowski.activitylauncher}
+
+Key Set Manager:
+  [de.szalkowski.activitylauncher]
+      Signing KeySets: 39
+
+Packages:
+  Package [de.szalkowski.activitylauncher] (e853f97):
+    userId=10100
+    pkg=Package{2a801a2 de.szalkowski.activitylauncher}
+    codePath=/data/app/de.szalkowski.activitylauncher-EKYAe3gZY4B3ppcdpQ7X8A==
+    resourcePath=/data/app/de.szalkowski.activitylauncher-EKYAe3gZY4B3ppcdpQ7X8A==
+    legacyNativeLibraryDir=/data/app/de.szalkowski.activitylauncher-EKYAe3gZY4B3ppcdpQ7X8A==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=38 minSdk=19 targetSdk=33
+    versionName=1.14.8
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{c52016d de.szalkowski.activitylauncher}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE ]
+    dataDir=/data/user/0/de.szalkowski.activitylauncher
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    timeStamp=2023-10-19 09:44:56
+    firstInstallTime=2023-10-19 09:44:56
+    lastUpdateTime=2023-10-19 09:44:56
+    signatures=PackageSignatures{7543e33 version:3, signatures:[785065e1], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      de.szalkowski.activitylauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.QUERY_ALL_PACKAGES
+      de.szalkowski.activitylauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      de.szalkowski.activitylauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=679158 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=109
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=32, package=io.github.phora.aeondroid
+    seq=36, package=ir.hsn6.tpb
+    seq=40, package=com.brosmike.airpushdetector
+    seq=44, package=ru.ikkui.achie
+    seq=102, package=bluepie.ad_silence
+    seq=106, package=us.achromaticmetaphor.agram
+    seq=107, package=io.github.ylimit.droidbotapp
+    seq=108, package=de.szalkowski.activitylauncher
+
+
+Dexopt state:
+  [de.szalkowski.activitylauncher]
+    path: /data/app/de.szalkowski.activitylauncher-EKYAe3gZY4B3ppcdpQ7X8A==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [de.szalkowski.activitylauncher]
+     base.apk - 366
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

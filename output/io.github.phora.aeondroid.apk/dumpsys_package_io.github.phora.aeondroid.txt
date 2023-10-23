@@ -1,0 +1,84 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        7b5fcc8 io.github.phora.aeondroid/.activities.MainActivity filter dd3c7d0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Key Set Manager:
+  [io.github.phora.aeondroid]
+      Signing KeySets: 27
+
+Packages:
+  Package [io.github.phora.aeondroid] (631c161):
+    userId=10088
+    pkg=Package{e211486 io.github.phora.aeondroid}
+    codePath=/data/app/io.github.phora.aeondroid-7b1dEvqnUVoPY1wu6GX6-w==
+    resourcePath=/data/app/io.github.phora.aeondroid-7b1dEvqnUVoPY1wu6GX6-w==
+    legacyNativeLibraryDir=/data/app/io.github.phora.aeondroid-7b1dEvqnUVoPY1wu6GX6-w==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=4 minSdk=5 targetSdk=23
+    versionName=1.0.3
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{dfac147 io.github.phora.aeondroid}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/io.github.phora.aeondroid
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2023-10-19 03:50:33
+    firstInstallTime=2023-10-19 03:50:33
+    lastUpdateTime=2023-10-19 03:50:33
+    signatures=PackageSignatures{e921d74 version:1, signatures:[91fe8be7], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION: restricted=true
+    User 0: ceDataInode=676081 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=31
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=29, package=io.github.ylimit.droidbotapp
+    seq=30, package=io.github.phora.aeondroid
+
+
+Dexopt state:
+  [io.github.phora.aeondroid]
+    path: /data/app/io.github.phora.aeondroid-7b1dEvqnUVoPY1wu6GX6-w==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [io.github.phora.aeondroid]
+     base.apk - 412
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

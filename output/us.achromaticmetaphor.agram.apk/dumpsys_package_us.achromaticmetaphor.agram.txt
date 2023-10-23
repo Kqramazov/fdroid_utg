@@ -1,0 +1,87 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        6062b6a us.achromaticmetaphor.agram/.MainActivity filter 2f5ed19
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Key Set Manager:
+  [us.achromaticmetaphor.agram]
+      Signing KeySets: 37
+
+Packages:
+  Package [us.achromaticmetaphor.agram] (fd6f85b):
+    userId=10098
+    pkg=Package{f95a8f8 us.achromaticmetaphor.agram}
+    codePath=/data/app/us.achromaticmetaphor.agram-Fo86YRz9MJt8zctu3ba0jw==
+    resourcePath=/data/app/us.achromaticmetaphor.agram-Fo86YRz9MJt8zctu3ba0jw==
+    legacyNativeLibraryDir=/data/app/us.achromaticmetaphor.agram-Fo86YRz9MJt8zctu3ba0jw==/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=21 minSdk=8 targetSdk=23
+    versionName=1.4.1
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{404b1d1 us.achromaticmetaphor.agram}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/us.achromaticmetaphor.agram
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2023-10-19 08:39:00
+    firstInstallTime=2023-10-19 08:39:00
+    lastUpdateTime=2023-10-19 08:39:00
+    signatures=PackageSignatures{cd39436 version:1, signatures:[a32de589], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_MEDIA_LOCATION
+    User 0: ceDataInode=675153 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=105
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=32, package=io.github.phora.aeondroid
+    seq=36, package=ir.hsn6.tpb
+    seq=40, package=com.brosmike.airpushdetector
+    seq=44, package=ru.ikkui.achie
+    seq=102, package=bluepie.ad_silence
+    seq=103, package=io.github.ylimit.droidbotapp
+    seq=104, package=us.achromaticmetaphor.agram
+
+
+Dexopt state:
+  [us.achromaticmetaphor.agram]
+    path: /data/app/us.achromaticmetaphor.agram-Fo86YRz9MJt8zctu3ba0jw==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [us.achromaticmetaphor.agram]
+     base.apk - 160
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

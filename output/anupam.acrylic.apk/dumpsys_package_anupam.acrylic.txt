@@ -1,0 +1,103 @@
+Activity Resolver Table:
+  Full MIME Types:
+      image/*:
+        f35f42e anupam.acrylic/.EasyPaint filter 95abc05
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Wild MIME Types:
+      image:
+        f35f42e anupam.acrylic/.EasyPaint filter 95abc05
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        3f32bcf anupam.acrylic/.Splash filter d796b7c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        f35f42e anupam.acrylic/.EasyPaint filter 95abc05
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+Key Set Manager:
+  [anupam.acrylic]
+      Signing KeySets: 25
+
+Packages:
+  Package [anupam.acrylic] (6fce95c):
+    userId=10086
+    pkg=Package{1f19465 anupam.acrylic}
+    codePath=/data/app/anupam.acrylic-B0SmKZniLiEZJECiCLXkwA==
+    resourcePath=/data/app/anupam.acrylic-B0SmKZniLiEZJECiCLXkwA==
+    legacyNativeLibraryDir=/data/app/anupam.acrylic-B0SmKZniLiEZJECiCLXkwA==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=19 minSdk=14 targetSdk=28
+    versionName=2.4.1
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{a31253a anupam.acrylic}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/anupam.acrylic
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-10-19 02:48:34
+    firstInstallTime=2023-10-19 02:48:34
+    lastUpdateTime=2023-10-19 02:48:34
+    signatures=PackageSignatures{520b5eb version:1, signatures:[be5eefa], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_MEDIA_LOCATION
+    User 0: ceDataInode=676405 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=27
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=25, package=io.github.ylimit.droidbotapp
+    seq=26, package=anupam.acrylic
+
+
+Dexopt state:
+  [anupam.acrylic]
+    path: /data/app/anupam.acrylic-B0SmKZniLiEZJECiCLXkwA==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [anupam.acrylic]
+     base.apk - 181
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

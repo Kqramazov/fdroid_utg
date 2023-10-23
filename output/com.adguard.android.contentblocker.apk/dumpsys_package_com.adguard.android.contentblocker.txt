@@ -1,0 +1,214 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        747b94c com.adguard.android.contentblocker/.ui.MainActivity filter ecd857a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        c73d95 com.adguard.android.contentblocker/.receiver.UpdateReceiver filter 3a73988
+          Action: "android.intent.action.PACKAGE_REPLACED"
+          Scheme: "package"
+          Path: "PatternMatcher{LITERAL: com.adguard.android.contentblocker}"
+          Path: "PatternMatcher{LITERAL: com.sec.android.app.sbrowser}"
+
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        fd6ceaa com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 1e7b507
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        2e9fa9b com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 41e7f46
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.QUICKBOOT_POWERON:
+        6dd1e38 com.adguard.android.contentblocker/.receiver.BootUpReceiver filter 289312b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        6dd1e38 com.adguard.android.contentblocker/.receiver.BootUpReceiver filter 289312b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        2ab1e11 com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 33a6634
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        82b2b76 com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter b398c5d
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        2ab1e11 com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 33a6634
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.adguard.android.contentblocker.count_action_1:
+        4e3a577 com.adguard.android.contentblocker/.receiver.StarsCountReceiver filter 8eb1f21
+          Action: "com.adguard.android.contentblocker.count_action_1"
+          Action: "com.adguard.android.contentblocker.count_action_2"
+          Action: "com.adguard.android.contentblocker.count_action_3"
+          Action: "com.adguard.android.contentblocker.count_action_4"
+          Action: "com.adguard.android.contentblocker.count_action_5"
+      com.adguard.android.contentblocker.count_action_2:
+        4e3a577 com.adguard.android.contentblocker/.receiver.StarsCountReceiver filter 8eb1f21
+          Action: "com.adguard.android.contentblocker.count_action_1"
+          Action: "com.adguard.android.contentblocker.count_action_2"
+          Action: "com.adguard.android.contentblocker.count_action_3"
+          Action: "com.adguard.android.contentblocker.count_action_4"
+          Action: "com.adguard.android.contentblocker.count_action_5"
+      com.adguard.android.contentblocker.count_action_3:
+        4e3a577 com.adguard.android.contentblocker/.receiver.StarsCountReceiver filter 8eb1f21
+          Action: "com.adguard.android.contentblocker.count_action_1"
+          Action: "com.adguard.android.contentblocker.count_action_2"
+          Action: "com.adguard.android.contentblocker.count_action_3"
+          Action: "com.adguard.android.contentblocker.count_action_4"
+          Action: "com.adguard.android.contentblocker.count_action_5"
+      com.adguard.android.contentblocker.count_action_4:
+        4e3a577 com.adguard.android.contentblocker/.receiver.StarsCountReceiver filter 8eb1f21
+          Action: "com.adguard.android.contentblocker.count_action_1"
+          Action: "com.adguard.android.contentblocker.count_action_2"
+          Action: "com.adguard.android.contentblocker.count_action_3"
+          Action: "com.adguard.android.contentblocker.count_action_4"
+          Action: "com.adguard.android.contentblocker.count_action_5"
+      com.adguard.android.contentblocker.count_action_5:
+        4e3a577 com.adguard.android.contentblocker/.receiver.StarsCountReceiver filter 8eb1f21
+          Action: "com.adguard.android.contentblocker.count_action_1"
+          Action: "com.adguard.android.contentblocker.count_action_2"
+          Action: "com.adguard.android.contentblocker.count_action_3"
+          Action: "com.adguard.android.contentblocker.count_action_4"
+          Action: "com.adguard.android.contentblocker.count_action_5"
+      android.intent.action.BATTERY_LOW:
+        fd6ceaa com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 1e7b507
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        261e5e4 com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.RescheduleReceiver filter d3349d2
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        261e5e4 com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.RescheduleReceiver filter d3349d2
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        6dd1e38 com.adguard.android.contentblocker/.receiver.BootUpReceiver filter 289312b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+        261e5e4 com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.RescheduleReceiver filter d3349d2
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        2e9fa9b com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 41e7f46
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        a128a4d com.adguard.android.contentblocker/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 9c09aa3
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Registered ContentProviders:
+  com.adguard.android.contentblocker/.FiltersContentProvider:
+    Provider{4968902 com.adguard.android.contentblocker/.FiltersContentProvider}
+  com.adguard.android.contentblocker/androidx.work.impl.WorkManagerInitializer:
+    Provider{b632213 com.adguard.android.contentblocker/androidx.work.impl.WorkManagerInitializer}
+
+ContentProvider Authorities:
+  [com.adguard.android.contentblocker.workmanager-init]:
+    Provider{b632213 com.adguard.android.contentblocker/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{b497c50 com.adguard.android.contentblocker}
+  [com.adguard.android.contentblocker.contentBlocker.contentProvider]:
+    Provider{4968902 com.adguard.android.contentblocker/.FiltersContentProvider}
+      applicationInfo=ApplicationInfo{b497c50 com.adguard.android.contentblocker}
+
+Key Set Manager:
+  [com.adguard.android.contentblocker]
+      Signing KeySets: 45
+
+Packages:
+  Package [com.adguard.android.contentblocker] (80a7e49):
+    userId=10106
+    pkg=Package{468334e com.adguard.android.contentblocker}
+    codePath=/data/app/com.adguard.android.contentblocker-kPnqTybISHP9kHWJOsdutw==
+    resourcePath=/data/app/com.adguard.android.contentblocker-kPnqTybISHP9kHWJOsdutw==
+    legacyNativeLibraryDir=/data/app/com.adguard.android.contentblocker-kPnqTybISHP9kHWJOsdutw==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=22000009 minSdk=21 targetSdk=28
+    versionName=2.6.1
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{b497c50 com.adguard.android.contentblocker}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/com.adguard.android.contentblocker
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-10-19 12:53:40
+    firstInstallTime=2023-10-19 12:53:41
+    lastUpdateTime=2023-10-19 12:53:41
+    signatures=PackageSignatures{c53cc6f version:1, signatures:[eae6432c], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      com.samsung.android.sbrowser.permission.CONTENTBLOCKER
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.WAKE_LOCK
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=680820 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=124
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=32, package=io.github.phora.aeondroid
+    seq=36, package=ir.hsn6.tpb
+    seq=40, package=com.brosmike.airpushdetector
+    seq=44, package=ru.ikkui.achie
+    seq=102, package=bluepie.ad_silence
+    seq=106, package=us.achromaticmetaphor.agram
+    seq=110, package=de.szalkowski.activitylauncher
+    seq=116, package=ch.abertschi.adfree
+    seq=119, package=org.mozilla.firefox
+    seq=121, package=tw.qtlin.mac.airunlocker
+    seq=122, package=io.github.ylimit.droidbotapp
+    seq=123, package=com.adguard.android.contentblocker
+
+
+Dexopt state:
+  [com.adguard.android.contentblocker]
+    path: /data/app/com.adguard.android.contentblocker-kPnqTybISHP9kHWJOsdutw==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [com.adguard.android.contentblocker]
+     base.apk - 785
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

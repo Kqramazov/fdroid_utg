@@ -1,0 +1,187 @@
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        97a1f9c com.lolo.io.onelist/.MainActivity filter 565eb8f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.1list}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Wild MIME Types:
+      *:
+        97a1f9c com.lolo.io.onelist/.MainActivity filter 565eb8f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.1list}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Schemes:
+      file:
+        97a1f9c com.lolo.io.onelist/.MainActivity filter 565eb8f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.1list}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      content:
+        97a1f9c com.lolo.io.onelist/.MainActivity filter 565eb8f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.1list}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        97a1f9c com.lolo.io.onelist/.MainActivity filter 940daee
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        97a1f9c com.lolo.io.onelist/.MainActivity filter 565eb8f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.1list}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.1list}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+Registered ContentProviders:
+  com.lolo.io.onelist/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{d492da5 com.lolo.io.onelist/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+
+ContentProvider Authorities:
+  [com.lolo.io.onelist.lifecycle-process]:
+    Provider{d492da5 com.lolo.io.onelist/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{6aee57a com.lolo.io.onelist}
+
+Key Set Manager:
+  [com.lolo.io.onelist]
+      Signing KeySets: 49
+
+Packages:
+  Package [com.lolo.io.onelist] (8bf112b):
+    userId=10110
+    pkg=Package{2d79988 com.lolo.io.onelist}
+    codePath=/data/app/com.lolo.io.onelist-T_tWdgs9lBzrKbWAUJgMAw==
+    resourcePath=/data/app/com.lolo.io.onelist-T_tWdgs9lBzrKbWAUJgMAw==
+    legacyNativeLibraryDir=/data/app/com.lolo.io.onelist-T_tWdgs9lBzrKbWAUJgMAw==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=14 minSdk=16 targetSdk=29
+    versionName=1.3.1
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{6aee57a com.lolo.io.onelist}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE ]
+    dataDir=/data/user/0/com.lolo.io.onelist
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-10-19 15:34:15
+    firstInstallTime=2023-10-19 15:34:15
+    lastUpdateTime=2023-10-19 15:34:15
+    signatures=PackageSignatures{dc3ff21 version:1, signatures:[9ea33f37], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+    User 0: ceDataInode=681650 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=145
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=32, package=io.github.phora.aeondroid
+    seq=36, package=ir.hsn6.tpb
+    seq=40, package=com.brosmike.airpushdetector
+    seq=44, package=ru.ikkui.achie
+    seq=102, package=bluepie.ad_silence
+    seq=106, package=us.achromaticmetaphor.agram
+    seq=110, package=de.szalkowski.activitylauncher
+    seq=116, package=ch.abertschi.adfree
+    seq=121, package=tw.qtlin.mac.airunlocker
+    seq=137, package=com.adguard.android.contentblocker
+    seq=140, package=org.mozilla.firefox
+    seq=142, package=org.ligi.ajsha
+    seq=143, package=io.github.ylimit.droidbotapp
+    seq=144, package=com.lolo.io.onelist
+
+
+Dexopt state:
+  [com.lolo.io.onelist]
+    path: /data/app/com.lolo.io.onelist-T_tWdgs9lBzrKbWAUJgMAw==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [com.lolo.io.onelist]
+     base.apk - 489
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

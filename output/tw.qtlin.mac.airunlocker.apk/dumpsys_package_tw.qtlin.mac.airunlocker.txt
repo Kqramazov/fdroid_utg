@@ -1,0 +1,115 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        37e0600 tw.qtlin.mac.airunlocker/.MainActivity filter 3358495
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        67cbe39 tw.qtlin.mac.airunlocker/.BootBroadcastReceiver filter c6d09aa
+          Action: "android.intent.action.BOOT_COMPLETED"
+
+Key Set Manager:
+  [tw.qtlin.mac.airunlocker]
+      Signing KeySets: 43
+
+Packages:
+  Package [tw.qtlin.mac.airunlocker] (e288c7e):
+    userId=10104
+    pkg=Package{98665df tw.qtlin.mac.airunlocker}
+    codePath=/data/app/tw.qtlin.mac.airunlocker-FtAPxzHLILb1orUyAurG0g==
+    resourcePath=/data/app/tw.qtlin.mac.airunlocker-FtAPxzHLILb1orUyAurG0g==
+    legacyNativeLibraryDir=/data/app/tw.qtlin.mac.airunlocker-FtAPxzHLILb1orUyAurG0g==/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=21 targetSdk=23
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{abd822c tw.qtlin.mac.airunlocker}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/tw.qtlin.mac.airunlocker
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2023-10-19 11:53:56
+    firstInstallTime=2023-10-19 11:53:56
+    lastUpdateTime=2023-10-19 11:53:56
+    signatures=PackageSignatures{a6204f5 version:1, signatures:[d2a0c24e], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.USE_FINGERPRINT
+      android.permission.CAMERA
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+      android.permission.ACCESS_NOTIFICATION_POLICY
+      android.permission.VIBRATE
+      android.permission.ACCESS_BACKGROUND_LOCATION: restricted=true
+    install permissions:
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+    User 0: ceDataInode=679364 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3002, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=119
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=32, package=io.github.phora.aeondroid
+    seq=36, package=ir.hsn6.tpb
+    seq=40, package=com.brosmike.airpushdetector
+    seq=44, package=ru.ikkui.achie
+    seq=102, package=bluepie.ad_silence
+    seq=106, package=us.achromaticmetaphor.agram
+    seq=110, package=de.szalkowski.activitylauncher
+    seq=116, package=ch.abertschi.adfree
+    seq=117, package=io.github.ylimit.droidbotapp
+    seq=118, package=tw.qtlin.mac.airunlocker
+
+
+Dexopt state:
+  [tw.qtlin.mac.airunlocker]
+    path: /data/app/tw.qtlin.mac.airunlocker-FtAPxzHLILb1orUyAurG0g==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [tw.qtlin.mac.airunlocker]
+     base.apk - 683
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

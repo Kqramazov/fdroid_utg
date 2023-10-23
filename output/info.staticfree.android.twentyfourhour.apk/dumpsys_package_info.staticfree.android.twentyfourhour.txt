@@ -1,0 +1,129 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        b53bd9e info.staticfree.android.twentyfourhour/.WidgetDemo filter 4c42c4b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.TIME_CHANGED:
+        ca2107f info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidgetResizable filter 86d5f41
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        341e84c info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidget filter d274227
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        e9f4095 info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidget3x filter 16fae7d
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE:
+        ca2107f info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidgetResizable filter 86d5f41
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        341e84c info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidget filter d274227
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        e9f4095 info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidget3x filter 16fae7d
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIMEZONE_CHANGED:
+        ca2107f info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidgetResizable filter 86d5f41
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        341e84c info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidget filter d274227
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        e9f4095 info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidget3x filter 16fae7d
+          Action: "info.staticfree.android.twentyfourhour.ACTION_CLOCK_UPDATE"
+          Action: "android.intent.action.TIME_CHANGED"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        ca2107f info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidgetResizable filter a07e628
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        341e84c info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidget filter 6dd8ce6
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        e9f4095 info.staticfree.android.twentyfourhour/.TwentyFourHourClockWidget3x filter 1093cd4
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+
+Key Set Manager:
+  [info.staticfree.android.twentyfourhour]
+      Signing KeySets: 19
+
+Packages:
+  Package [info.staticfree.android.twentyfourhour] (7ba15aa):
+    userId=10080
+    pkg=Package{851359b info.staticfree.android.twentyfourhour}
+    codePath=/data/app/info.staticfree.android.twentyfourhour-01PHDYKmffVGlqxXXjNYeA==
+    resourcePath=/data/app/info.staticfree.android.twentyfourhour-01PHDYKmffVGlqxXXjNYeA==
+    legacyNativeLibraryDir=/data/app/info.staticfree.android.twentyfourhour-01PHDYKmffVGlqxXXjNYeA==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=8 minSdk=7 targetSdk=17
+    versionName=0.4.2
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{9cb3d38 info.staticfree.android.twentyfourhour}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/info.staticfree.android.twentyfourhour
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2023-10-18 23:43:31
+    firstInstallTime=2023-10-18 23:43:31
+    lastUpdateTime=2023-10-18 23:43:31
+    signatures=PackageSignatures{9805111 version:1, signatures:[8d38dc2f], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION: restricted=true
+    User 0: ceDataInode=677381 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ REVOKE_ON_UPGRADE|REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ REVOKE_ON_UPGRADE|REVIEW_REQUIRED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ REVOKE_ON_UPGRADE|REVIEW_REQUIRED|REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=13
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=11, package=io.github.ylimit.droidbotapp
+    seq=12, package=info.staticfree.android.twentyfourhour
+
+
+Dexopt state:
+  [info.staticfree.android.twentyfourhour]
+    path: /data/app/info.staticfree.android.twentyfourhour-01PHDYKmffVGlqxXXjNYeA==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [info.staticfree.android.twentyfourhour]
+     base.apk - 117
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

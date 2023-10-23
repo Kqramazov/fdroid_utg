@@ -1,0 +1,50 @@
+{
+  "tag": "2023-10-19_145717",
+  "event": {
+    "event_type": "long_touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.ligi.ajsha",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          48,
+          288
+        ],
+        [
+          1032,
+          800
+        ]
+      ],
+      "resource_id": "org.ligi.ajsha:id/codeInput",
+      "checked": false,
+      "text": "import android.content.pm.PackageManager;\n\nint res;\n\nres=ctx.checkCallingOrSelfPermission(\"android.permission.WRITE_EXTERNAL_STORAGE\");\nprint(\"WRITE_EXTERNAL_STORAGE:\" +  (res== PackageManager.PERMISSION_GRANTED));\n\nres=ctx.checkCallingOrSelfPermission(\"android.permission.ACCESS_NETWORK_STATE\");\nprint(\"ACCESS_NETWORK_STATE:\" +  (res== PackageManager.PERMISSION_GRANTED));\n\n\n",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "984*512",
+      "signature": "[class]android.widget.EditText[resource_id]org.ligi.ajsha:id/codeInput[text]None[enabled,,]",
+      "view_str": "3fdd122c02e52e0176636e6d8ae46ed3",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]org.ligi.ajsha:id/codeInput"
+    },
+    "duration": 2000
+  },
+  "start_state": "51776e7394cca967127621aedb7e62a4",
+  "stop_state": "51776e7394cca967127621aedb7e62a4",
+  "event_str": "LongTouchEvent(state=51776e7394cca967127621aedb7e62a4, view=3fdd122c02e52e0176636e6d8ae46ed3(EditActivity/EditText-import and))"
+}

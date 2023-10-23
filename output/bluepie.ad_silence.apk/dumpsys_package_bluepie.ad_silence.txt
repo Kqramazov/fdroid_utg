@@ -1,0 +1,88 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        48f3d0d bluepie.ad_silence/.AdSilenceActivity filter 7fdb3db
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.notification.NotificationListenerService:
+        aa524c2 bluepie.ad_silence/.NotificationListener filter a347e78 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+
+Key Set Manager:
+  [bluepie.ad_silence]
+      Signing KeySets: 35
+
+Packages:
+  Package [bluepie.ad_silence] (98ff2d3):
+    userId=10096
+    pkg=Package{78de10 bluepie.ad_silence}
+    codePath=/data/app/bluepie.ad_silence-JEzaSPu33HU0pr8wxwB_1g==
+    resourcePath=/data/app/bluepie.ad_silence-JEzaSPu33HU0pr8wxwB_1g==
+    legacyNativeLibraryDir=/data/app/bluepie.ad_silence-JEzaSPu33HU0pr8wxwB_1g==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=42 minSdk=21 targetSdk=33
+    versionName=0.6.0
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{77f9d09 bluepie.ad_silence}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE ]
+    dataDir=/data/user/0/bluepie.ad_silence
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-10-19 07:47:38
+    firstInstallTime=2023-10-19 07:47:38
+    lastUpdateTime=2023-10-19 07:47:38
+    signatures=PackageSignatures{124cb0e version:3, signatures:[a819923], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.FOREGROUND_SERVICE
+      android.permission.POST_NOTIFICATIONS
+    install permissions:
+      android.permission.FOREGROUND_SERVICE: granted=true
+    User 0: ceDataInode=681840 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=47
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=32, package=io.github.phora.aeondroid
+    seq=36, package=ir.hsn6.tpb
+    seq=40, package=com.brosmike.airpushdetector
+    seq=44, package=ru.ikkui.achie
+    seq=45, package=io.github.ylimit.droidbotapp
+    seq=46, package=bluepie.ad_silence
+
+
+Dexopt state:
+  [bluepie.ad_silence]
+    path: /data/app/bluepie.ad_silence-JEzaSPu33HU0pr8wxwB_1g==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [bluepie.ad_silence]
+     base.apk - 187
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

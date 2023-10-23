@@ -1,0 +1,133 @@
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        7ab613 ru.ikkui.achie/.MainMenuActivity filter 60d0693
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Wild MIME Types:
+      *:
+        7ab613 ru.ikkui.achie/.MainMenuActivity filter 60d0693
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Schemes:
+      content:
+        7ab613 ru.ikkui.achie/.MainMenuActivity filter 60d0693
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        7ab613 ru.ikkui.achie/.MainMenuActivity filter edf2f82
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        7ab613 ru.ikkui.achie/.MainMenuActivity filter 60d0693
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+Registered ContentProviders:
+  ru.ikkui.achie/androidx.core.content.FileProvider:
+    Provider{d6b8050 ru.ikkui.achie/androidx.core.content.FileProvider}
+  ru.ikkui.achie/androidx.startup.InitializationProvider:
+    Provider{5be3249 ru.ikkui.achie/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [ru.ikkui.achie]:
+    Provider{d6b8050 ru.ikkui.achie/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{2c3d74e ru.ikkui.achie}
+  [ru.ikkui.achie.androidx-startup]:
+    Provider{5be3249 ru.ikkui.achie/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{2c3d74e ru.ikkui.achie}
+
+Key Set Manager:
+  [ru.ikkui.achie]
+      Signing KeySets: 33
+
+Packages:
+  Package [ru.ikkui.achie] (d50a06f):
+    userId=10094
+    pkg=Package{110517c ru.ikkui.achie}
+    codePath=/data/app/ru.ikkui.achie-F2VKpOLCO1SbPeee28fXfw==
+    resourcePath=/data/app/ru.ikkui.achie-F2VKpOLCO1SbPeee28fXfw==
+    legacyNativeLibraryDir=/data/app/ru.ikkui.achie-F2VKpOLCO1SbPeee28fXfw==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=9 minSdk=28 targetSdk=32
+    versionName=1.4
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{2c3d74e ru.ikkui.achie}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE ]
+    dataDir=/data/user/0/ru.ikkui.achie
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    timeStamp=2023-10-19 06:50:15
+    firstInstallTime=2023-10-19 06:50:15
+    lastUpdateTime=2023-10-19 06:50:15
+    signatures=PackageSignatures{eaeaa05 version:2, signatures:[c1b9d79b], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    User 0: ceDataInode=681510 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      runtime permissions:
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=43
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=32, package=io.github.phora.aeondroid
+    seq=36, package=ir.hsn6.tpb
+    seq=40, package=com.brosmike.airpushdetector
+    seq=41, package=io.github.ylimit.droidbotapp
+    seq=42, package=ru.ikkui.achie
+
+
+Dexopt state:
+  [ru.ikkui.achie]
+    path: /data/app/ru.ikkui.achie-F2VKpOLCO1SbPeee28fXfw==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [ru.ikkui.achie]
+     base.apk - 831
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

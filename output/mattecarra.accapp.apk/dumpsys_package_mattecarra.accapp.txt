@@ -1,0 +1,109 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        e19b6ba mattecarra.accapp/.activities.MainActivity filter ade5fe2
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.VIEW:
+        e19b6ba mattecarra.accapp/.activities.MainActivity filter ade5fe2
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        47ba96b mattecarra.accapp/.receivers.AccBootReceiver filter cb1df73
+          Action: "android.intent.action.BOOT_COMPLETED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.quicksettings.action.QS_TILE:
+        a07ecc8 mattecarra.accapp/.services.AccProfileTileService filter fc35e30 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+        a34f161 mattecarra.accapp/.services.AccdTileService filter 601eaa9 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+
+Registered ContentProviders:
+  mattecarra.accapp/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{c1c8486 mattecarra.accapp/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  mattecarra.accapp/androidx.core.content.FileProvider:
+    Provider{e297147 mattecarra.accapp/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [mattecarra.accapp.fileprovider]:
+    Provider{e297147 mattecarra.accapp/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{c130d74 mattecarra.accapp}
+  [mattecarra.accapp.lifecycle-process]:
+    Provider{c1c8486 mattecarra.accapp/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{c130d74 mattecarra.accapp}
+
+Key Set Manager:
+  [mattecarra.accapp]
+      Signing KeySets: 17
+
+Packages:
+  Package [mattecarra.accapp] (dee429d):
+    userId=10078
+    pkg=Package{92c6312 mattecarra.accapp}
+    codePath=/data/app/mattecarra.accapp-itCL2fR4FkDumgXOvYCGjA==
+    resourcePath=/data/app/mattecarra.accapp-itCL2fR4FkDumgXOvYCGjA==
+    legacyNativeLibraryDir=/data/app/mattecarra.accapp-itCL2fR4FkDumgXOvYCGjA==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=39 minSdk=16 targetSdk=30
+    versionName=1.0.35
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{c130d74 mattecarra.accapp}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE ]
+    dataDir=/data/user/0/mattecarra.accapp
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2023-10-18 22:37:21
+    firstInstallTime=2023-10-18 22:37:21
+    lastUpdateTime=2023-10-18 22:37:21
+    signatures=PackageSignatures{1dae3 version:3, signatures:[e7ac1abc], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+    User 0: ceDataInode=674073 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=9
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=6, package=io.github.ylimit.droidbotapp
+    seq=7, package=de.hechler.andfish
+    seq=8, package=mattecarra.accapp
+
+
+Dexopt state:
+  [mattecarra.accapp]
+    path: /data/app/mattecarra.accapp-itCL2fR4FkDumgXOvYCGjA==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [mattecarra.accapp]
+     base.apk - 1499
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

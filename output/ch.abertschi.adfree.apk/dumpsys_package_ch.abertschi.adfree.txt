@@ -1,0 +1,125 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1cb4f40 ch.abertschi.adfree/.view.MainActivity filter e5633fd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      ch.abertschi.adfree.SEND_LOG_CRASH:
+        1366e79 ch.abertschi.adfree/.crashhandler.SendCrashReportActivity filter e086854
+          Action: "ch.abertschi.adfree.SEND_LOG_CRASH"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.QUICKBOOT_POWERON:
+        46c17be ch.abertschi.adfree/.StartOnBootListener filter 13968f2
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        46c17be ch.abertschi.adfree/.StartOnBootListener filter 13968f2
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+      android.intent.action.BOOT_COMPLETED:
+        46c17be ch.abertschi.adfree/.StartOnBootListener filter 13968f2
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.notification.NotificationListenerService:
+        c36301f ch.abertschi.adfree/.NotificationsListeners filter 979b43 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+
+Key Set Manager:
+  [ch.abertschi.adfree]
+      Signing KeySets: 41
+
+Packages:
+  Package [ch.abertschi.adfree] (cb61f6c):
+    userId=10102
+    pkg=Package{a67935 ch.abertschi.adfree}
+    codePath=/data/app/ch.abertschi.adfree-hdLEpc3FaS_Uab_7HMxdFg==
+    resourcePath=/data/app/ch.abertschi.adfree-hdLEpc3FaS_Uab_7HMxdFg==
+    legacyNativeLibraryDir=/data/app/ch.abertschi.adfree-hdLEpc3FaS_Uab_7HMxdFg==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=41 minSdk=23 targetSdk=27
+    versionName=3.1
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{3cdf1ca ch.abertschi.adfree}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ]
+    dataDir=/data/user/0/ch.abertschi.adfree
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2023-10-19 10:53:45
+    firstInstallTime=2023-10-19 10:53:45
+    lastUpdateTime=2023-10-19 10:53:45
+    signatures=PackageSignatures{a97af3b version:3, signatures:[4645988e], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=677575 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+isSystemUserPackagesBlacklistSupported: false
+
+Package Changes:
+  Sequence number=113
+  User 0:
+    seq=1, package=com.sina.weibo
+    seq=7, package=de.hechler.andfish
+    seq=10, package=mattecarra.accapp
+    seq=16, package=info.staticfree.android.twentyfourhour
+    seq=20, package=com.uberspot.a2048
+    seq=24, package=com.chancehorizon.just24hoursplus
+    seq=28, package=anupam.acrylic
+    seq=32, package=io.github.phora.aeondroid
+    seq=36, package=ir.hsn6.tpb
+    seq=40, package=com.brosmike.airpushdetector
+    seq=44, package=ru.ikkui.achie
+    seq=102, package=bluepie.ad_silence
+    seq=106, package=us.achromaticmetaphor.agram
+    seq=110, package=de.szalkowski.activitylauncher
+    seq=111, package=io.github.ylimit.droidbotapp
+    seq=112, package=ch.abertschi.adfree
+
+
+Dexopt state:
+  [ch.abertschi.adfree]
+    path: /data/app/ch.abertschi.adfree-hdLEpc3FaS_Uab_7HMxdFg==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [ch.abertschi.adfree]
+     base.apk - 1190
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

@@ -1,0 +1,2532 @@
+{
+  "tag": "2023-10-19_105330",
+  "state_str": "dd346ceab4c03d873d9c438e0e5058a9",
+  "state_str_content_free": "f9181b0ce47886ba4825b30ae34a8c3b",
+  "foreground_activity": "de.szalkowski.activitylauncher/.MainActivity",
+  "activity_stack": [
+    "de.szalkowski.activitylauncher/.MainActivity",
+    "de.szalkowski.activitylauncher/.MainActivity"
+  ],
+  "background_services": [
+    "android.ext.services/.notification.Assistant",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices",
+    "org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices",
+    "com.android.systemui/.ImageWallpaper",
+    "com.android.launcher3/.notification.NotificationListener",
+    "com.android.networkstack.inprocess/com.android.server.NetworkStackService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.android.systemui/.SystemUIService",
+    "com.omarea.vtools/.AccessibilityScenceMode",
+    "com.android.launcher3/com.android.quickstep.TouchInteractionService",
+    "org.mozilla.firefox/org.mozilla.fenix.session.PrivateNotificationService",
+    "com.thundercomm.localhost/.vhosts.VhostsService"
+  ],
+  "width": 2340,
+  "height": 1080,
+  "views": [
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        63,
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*1920",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ea11666ccf51293a6b3b04b121718027",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*1776",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f38d54eeb4b987417ee60a2c7737ff36",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          72
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*1704",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "813065bfa3433d8209f7dbd87a9a0e76",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4,
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          72
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/decor_content_parent",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*1704",
+      "signature": "[class]android.view.ViewGroup[resource_id]de.szalkowski.activitylauncher:id/decor_content_parent[text]None[enabled,,]",
+      "view_str": "9aee601c6fa5621d5c40f3568e75a662",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]de.szalkowski.activitylauncher:id/decor_content_parent"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          72
+        ],
+        [
+          1080,
+          240
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/action_bar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]de.szalkowski.activitylauncher:id/action_bar_container[text]None[enabled,,]",
+      "view_str": "eefd4c7f1019b2c9822b817fbd83c7a2",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]de.szalkowski.activitylauncher:id/action_bar_container"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          72
+        ],
+        [
+          1080,
+          240
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/action_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*168",
+      "signature": "[class]android.view.ViewGroup[resource_id]de.szalkowski.activitylauncher:id/action_bar[text]None[enabled,,]",
+      "view_str": "c47aa5955a81a7b627509494ec5947de",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]de.szalkowski.activitylauncher:id/action_bar"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          48,
+          115
+        ],
+        [
+          510,
+          196
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Activity Launcher",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "462*81",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Activity Launcher[enabled,,]",
+      "view_str": "2817f12013032c1150ad48bc73a0d0d3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          792,
+          72
+        ],
+        [
+          1080,
+          240
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 7,
+      "size": "288*168",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "2e5f6553a7fde61bbe5a18bf2f27cecb",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Filtrovat\u2026",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          792,
+          84
+        ],
+        [
+          936,
+          228
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/search",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "144*144",
+      "signature": "[class]android.widget.Button[resource_id]de.szalkowski.activitylauncher:id/search[text]None[enabled,,]",
+      "view_str": "7771ee16b1d02fe785da59263c929d82",
+      "content_free_signature": "[class]android.widget.Button[resource_id]de.szalkowski.activitylauncher:id/search"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Nastaven\u00ed",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          936,
+          84
+        ],
+        [
+          1080,
+          228
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/action_settings",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "144*144",
+      "signature": "[class]android.widget.Button[resource_id]de.szalkowski.activitylauncher:id/action_settings[text]None[enabled,,]",
+      "view_str": "46fe0b0bd299143e402759133cd6b589",
+      "content_free_signature": "[class]android.widget.Button[resource_id]de.szalkowski.activitylauncher:id/action_settings"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          240
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 10,
+      "size": "1080*1536",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "5fc1295d900ead7c1307c03c95ec360c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          240
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*1536",
+      "signature": "[class]android.widget.FrameLayout[resource_id]de.szalkowski.activitylauncher:id/container[text]None[enabled,,]",
+      "view_str": "7405c7691c61b5cb839014b97b409590",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]de.szalkowski.activitylauncher:id/container"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          240
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1080*1536",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "99c355a6188facbe16cffbdfc012225d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 7,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        21,
+        28,
+        35,
+        42,
+        49,
+        56
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          240
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/expandableListView1",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ExpandableListView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*1536",
+      "signature": "[class]android.widget.ExpandableListView[resource_id]de.szalkowski.activitylauncher:id/expandableListView1[text]None[enabled,,]",
+      "view_str": "7641025ca2d80dd55eb9258432a30484",
+      "content_free_signature": "[class]android.widget.ExpandableListView[resource_id]de.szalkowski.activitylauncher:id/expandableListView1"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        16,
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          240
+        ],
+        [
+          1080,
+          332
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1080*92",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e169e2903f494fbea68bfac739dd90f3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Ikona",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          180,
+          240
+        ],
+        [
+          276,
+          284
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageView_activity_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "96*44",
+      "signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon[text]None[enabled,,]",
+      "view_str": "e5a2369de84ea07b5a8eea93ca762739",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          276,
+          240
+        ],
+        [
+          906,
+          301
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 16,
+      "size": "630*61",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "8d51744585c45cfaa98b95668cdcee67",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          240
+        ],
+        [
+          415,
+          244
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "109*4",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4e8aad71a0e70b76f172d14c24552cfa",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          240
+        ],
+        [
+          415,
+          244
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_title",
+      "checked": false,
+      "text": ".App",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "109*4",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title[text].App[enabled,,]",
+      "view_str": "d55b2c638f9e90049743ce68250a55bc",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          244
+        ],
+        [
+          876,
+          301
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_class",
+      "checked": false,
+      "text": "org.mozilla.firefox.App",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 19,
+      "size": "570*57",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class[text]org.mozilla.firefox.App[enabled,,]",
+      "view_str": "212ce8df399ec6d83c9b065caf99017b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          906,
+          240
+        ],
+        [
+          1050,
+          308
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageButton_context_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 20,
+      "size": "144*68",
+      "signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu[text]None[enabled,,]",
+      "view_str": "f92eb21e724f3c64fc2d7701b9e26ce3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22,
+        23,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          335
+        ],
+        [
+          1080,
+          577
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 21,
+      "size": "1080*242",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e169e2903f494fbea68bfac739dd90f3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Ikona",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          180,
+          408
+        ],
+        [
+          276,
+          504
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageView_activity_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "96*96",
+      "signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon[text]None[enabled,,]",
+      "view_str": "e5a2369de84ea07b5a8eea93ca762739",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24,
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          276,
+          335
+        ],
+        [
+          906,
+          577
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "630*242",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e5312d644b55ec882c4bf8153b7315d4",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          335
+        ],
+        [
+          876,
+          471
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "570*136",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6fa759097377b06cd66a16ecda0c61c1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          335
+        ],
+        [
+          876,
+          471
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_title",
+      "checked": false,
+      "text": "androidx.compose.ui.tooling.PreviewActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "570*136",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title[text]androidx.compose.ui.tooling.PreviewActivity[enabled,,]",
+      "view_str": "1265a52268b600bc6306ee17d92325af",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          471
+        ],
+        [
+          876,
+          577
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_class",
+      "checked": false,
+      "text": "androidx.compose.ui.tooling.PreviewActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 26,
+      "size": "570*106",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class[text]androidx.compose.ui.tooling.PreviewActivity[enabled,,]",
+      "view_str": "91e89c90e8a4e819e2c881e173bdcfb4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          906,
+          384
+        ],
+        [
+          1050,
+          528
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageButton_context_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 27,
+      "size": "144*144",
+      "signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu[text]None[enabled,,]",
+      "view_str": "f92eb21e724f3c64fc2d7701b9e26ce3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29,
+        30,
+        34
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          580
+        ],
+        [
+          1080,
+          885
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 28,
+      "size": "1080*305",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e169e2903f494fbea68bfac739dd90f3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Ikona",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          180,
+          684
+        ],
+        [
+          276,
+          780
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageView_activity_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "96*96",
+      "signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon[text]None[enabled,,]",
+      "view_str": "e5a2369de84ea07b5a8eea93ca762739",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31,
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          276,
+          580
+        ],
+        [
+          906,
+          885
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 30,
+      "size": "630*305",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "c7eddfcb7107f7ec2bcea60f041e5554",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          580
+        ],
+        [
+          876,
+          779
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "570*199",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "fc13e34fc2eb00b431fb4091813c6ac6",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          580
+        ],
+        [
+          876,
+          779
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_title",
+      "checked": false,
+      "text": "mozilla.components.feature.pwa.WebAppLauncherActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "570*199",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title[text]None[enabled,,]",
+      "view_str": "9ce498d1587ec99a916600332b000fa3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          779
+        ],
+        [
+          876,
+          885
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_class",
+      "checked": false,
+      "text": "mozilla.components.feature.pwa.WebAppLauncherActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 33,
+      "size": "570*106",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class[text]None[enabled,,]",
+      "view_str": "23476720a4c1fc2272d8782192e8618e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          906,
+          660
+        ],
+        [
+          1050,
+          804
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageButton_context_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 34,
+      "size": "144*144",
+      "signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu[text]None[enabled,,]",
+      "view_str": "f92eb21e724f3c64fc2d7701b9e26ce3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36,
+        37,
+        41
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          888
+        ],
+        [
+          1080,
+          1193
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 35,
+      "size": "1080*305",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e169e2903f494fbea68bfac739dd90f3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Ikona",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          180,
+          992
+        ],
+        [
+          276,
+          1088
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageView_activity_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "96*96",
+      "signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon[text]None[enabled,,]",
+      "view_str": "e5a2369de84ea07b5a8eea93ca762739",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        38,
+        40
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          276,
+          888
+        ],
+        [
+          906,
+          1193
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 37,
+      "size": "630*305",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d2aad7b589178760b697b0e379f6d608",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          888
+        ],
+        [
+          876,
+          1087
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "570*199",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1d224a4350deece8b43ed337c40b9c53",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          888
+        ],
+        [
+          876,
+          1087
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_title",
+      "checked": false,
+      "text": "mozilla.telemetry.glean.debug.GleanDebugActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "570*199",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title[text]mozilla.telemetry.glean.debug.GleanDebugActivity[enabled,,]",
+      "view_str": "84cb282340151628fae21bdaa71babf6",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1087
+        ],
+        [
+          876,
+          1193
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_class",
+      "checked": false,
+      "text": "mozilla.telemetry.glean.debug.GleanDebugActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 40,
+      "size": "570*106",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class[text]mozilla.telemetry.glean.debug.GleanDebugActivity[enabled,,]",
+      "view_str": "4ea94804b1c6a8ce652a164b2061c20f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          906,
+          968
+        ],
+        [
+          1050,
+          1112
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageButton_context_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 41,
+      "size": "144*144",
+      "signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu[text]None[enabled,,]",
+      "view_str": "f92eb21e724f3c64fc2d7701b9e26ce3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        43,
+        44,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1196
+        ],
+        [
+          1080,
+          1438
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 42,
+      "size": "1080*242",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e169e2903f494fbea68bfac739dd90f3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Ikona",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          180,
+          1269
+        ],
+        [
+          276,
+          1365
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageView_activity_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "96*96",
+      "signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon[text]None[enabled,,]",
+      "view_str": "e5a2369de84ea07b5a8eea93ca762739",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        45,
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          276,
+          1196
+        ],
+        [
+          906,
+          1438
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 44,
+      "size": "630*242",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1ff023610cbc2bf0db0d964f9e20f487",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1196
+        ],
+        [
+          876,
+          1332
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 45,
+      "size": "570*136",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "51b8470bf63d5ce99149130f153e081d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1196
+        ],
+        [
+          876,
+          1332
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_title",
+      "checked": false,
+      "text": "org.mozilla.fenix.HomeActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 45,
+      "temp_id": 46,
+      "size": "570*136",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title[text]org.mozilla.fenix.HomeActivity[enabled,,]",
+      "view_str": "7b8bac5ccb0f20c80b6ea035972769c1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1332
+        ],
+        [
+          876,
+          1438
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_class",
+      "checked": false,
+      "text": "org.mozilla.fenix.HomeActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 47,
+      "size": "570*106",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class[text]org.mozilla.fenix.HomeActivity[enabled,,]",
+      "view_str": "695bf0b5aaa98399675eb450c8e7b471",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          906,
+          1245
+        ],
+        [
+          1050,
+          1389
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageButton_context_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 48,
+      "size": "144*144",
+      "signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu[text]None[enabled,,]",
+      "view_str": "f92eb21e724f3c64fc2d7701b9e26ce3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        50,
+        51,
+        55
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1441
+        ],
+        [
+          1080,
+          1683
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 49,
+      "size": "1080*242",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e169e2903f494fbea68bfac739dd90f3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Ikona",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          180,
+          1514
+        ],
+        [
+          276,
+          1610
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageView_activity_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 50,
+      "size": "96*96",
+      "signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon[text]None[enabled,,]",
+      "view_str": "e5a2369de84ea07b5a8eea93ca762739",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        52,
+        54
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          276,
+          1441
+        ],
+        [
+          906,
+          1683
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 51,
+      "size": "630*242",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4eeead3d0187c500e405036d036f92e9",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        53
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1441
+        ],
+        [
+          876,
+          1577
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "570*136",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "07a9b0ce6b2cf1cbe7e544f4f9627120",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1441
+        ],
+        [
+          876,
+          1577
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_title",
+      "checked": false,
+      "text": "org.mozilla.fenix.IntentReceiverActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "570*136",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title[text]org.mozilla.fenix.IntentReceiverActivity[enabled,,]",
+      "view_str": "354a7d32d9937b9917c011c66e6f585f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1577
+        ],
+        [
+          876,
+          1683
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_class",
+      "checked": false,
+      "text": "org.mozilla.fenix.IntentReceiverActivity",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 54,
+      "size": "570*106",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class[text]org.mozilla.fenix.IntentReceiverActivity[enabled,,]",
+      "view_str": "f61ee7bac952255b43b4c1dae48b4ff9",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          906,
+          1490
+        ],
+        [
+          1050,
+          1634
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageButton_context_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 55,
+      "size": "144*144",
+      "signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu[text]None[enabled,,]",
+      "view_str": "f92eb21e724f3c64fc2d7701b9e26ce3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        57,
+        58,
+        62
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1686
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 56,
+      "size": "1080*90",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e169e2903f494fbea68bfac739dd90f3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Ikona",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          180,
+          1759
+        ],
+        [
+          276,
+          1776
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageView_activity_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 57,
+      "size": "96*17",
+      "signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon[text]None[enabled,,]",
+      "view_str": "e5a2369de84ea07b5a8eea93ca762739",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]de.szalkowski.activitylauncher:id/imageView_activity_icon"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        59,
+        61
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          276,
+          1686
+        ],
+        [
+          906,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 58,
+      "size": "630*90",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7b43d75bf3404b0ec88e67c5c57260d0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        60
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1686
+        ],
+        [
+          876,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 58,
+      "temp_id": 59,
+      "size": "570*90",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f7507f46b0911f1421a73b95d70beb8b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1686
+        ],
+        [
+          876,
+          1776
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_title",
+      "checked": false,
+      "text": "org.mozilla.gecko.BrowserApp",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 60,
+      "size": "570*90",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title[text]org.mozilla.gecko.BrowserApp[enabled,,]",
+      "view_str": "90410a5b0235ca2544054e3d17aa8891",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_title"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          306,
+          1822
+        ],
+        [
+          876,
+          1776
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/textView_activity_class",
+      "checked": false,
+      "text": "org.mozilla.gecko.BrowserApp",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 58,
+      "temp_id": 61,
+      "size": "570*-46",
+      "signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class[text]org.mozilla.gecko.BrowserApp[enabled,,]",
+      "view_str": "04d4c4a427bc203e8d598e786efa29fc",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]de.szalkowski.activitylauncher:id/textView_activity_class"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          906,
+          1735
+        ],
+        [
+          1050,
+          1776
+        ]
+      ],
+      "resource_id": "de.szalkowski.activitylauncher:id/imageButton_context_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 62,
+      "size": "144*41",
+      "signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu[text]None[enabled,,]",
+      "view_str": "f92eb21e724f3c64fc2d7701b9e26ce3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]de.szalkowski.activitylauncher:id/imageButton_context_menu"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          72
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 63,
+      "size": "1080*72",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "28ceed030f805b8d54b5da23bff60fd7",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "de.szalkowski.activitylauncher",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1776
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 64,
+      "size": "1080*144",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "76253877bea22172d0d38d7d74264d8a",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

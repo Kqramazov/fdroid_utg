@@ -1,0 +1,50 @@
+{
+  "tag": "2023-10-19_145928",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.ligi.ajsha",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          48,
+          288
+        ],
+        [
+          1032,
+          800
+        ]
+      ],
+      "resource_id": "org.ligi.ajsha:id/codeInput",
+      "checked": false,
+      "text": "import org.ligi.tracedroid.TraceDroid;\nimport org.ligi.tracedroid.sending.TraceDroidEmailSender;\n\nTraceDroid.init(ctx);\nTraceDroidEmailSender.sendStackTraces(\"ligi@ligi.de\",ctx);\n",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "984*512",
+      "signature": "[class]android.widget.EditText[resource_id]org.ligi.ajsha:id/codeInput[text]None[enabled,,]",
+      "view_str": "3fdd122c02e52e0176636e6d8ae46ed3",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]org.ligi.ajsha:id/codeInput"
+    },
+    "text": "Hello World"
+  },
+  "start_state": "fba60f1f7fee4d3a56daffc28690e4fa",
+  "stop_state": "d119834618ea882014b908483c308f1e",
+  "event_str": "SetTextEvent(state=fba60f1f7fee4d3a56daffc28690e4fa, view=3fdd122c02e52e0176636e6d8ae46ed3(EditActivity/EditText-import org), text=Hello World)"
+}

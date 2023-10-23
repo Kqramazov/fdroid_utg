@@ -1,0 +1,49 @@
+{
+  "tag": "2023-10-19_142526",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.ligi.ajsha",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          48,
+          288
+        ],
+        [
+          1032,
+          800
+        ]
+      ],
+      "resource_id": "org.ligi.ajsha:id/codeInput",
+      "checked": false,
+      "text": "import android.content.*;\nimport android.support.v4.app.*;\nimport android.app.*;\n\nNotificationCompat.Builder mBuilder =\n    new NotificationCompat.Builder(ctx)\n    .setSmallIcon(org.ligi.ajsha.R.drawable.ic_launcher)\n    .setContentTitle(\"My notification\")\n    .setContentText(\"Hello World!\");\nNotificationManager mNotifyMgr =  (NotificationManager) ctx.getSystemService(Context.NOTIFICATION_SERVICE);\n\nmNotifyMgr.notify(101, mBuilder.build());",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "984*512",
+      "signature": "[class]android.widget.EditText[resource_id]org.ligi.ajsha:id/codeInput[text]None[enabled,,]",
+      "view_str": "3fdd122c02e52e0176636e6d8ae46ed3",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]org.ligi.ajsha:id/codeInput"
+    }
+  },
+  "start_state": "387b6ab873bc4ad49c0d2f5cfd20369d",
+  "stop_state": "387b6ab873bc4ad49c0d2f5cfd20369d",
+  "event_str": "TouchEvent(state=387b6ab873bc4ad49c0d2f5cfd20369d, view=3fdd122c02e52e0176636e6d8ae46ed3(EditActivity/EditText-import and))"
+}
