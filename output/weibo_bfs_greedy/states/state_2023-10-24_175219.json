@@ -1,0 +1,5057 @@
+{
+  "tag": "2023-10-24_175219",
+  "state_str": "730174c34fce141d3d52d548b3881f86",
+  "state_str_content_free": "c53fea89e7183eaa454fafbc2fd3b446",
+  "foreground_activity": "com.sina.weibo/.page.searchv2.SearchActivityV2",
+  "activity_stack": [
+    "com.sina.weibo/.page.searchv2.SearchActivityV2",
+    "com.sina.weibo/.page.ProfileInfoActivity",
+    "com.sina.weibo/.VisitorMainTabActivity"
+  ],
+  "background_services": [
+    "android.ext.services/.notification.Assistant",
+    "com.sina.weibo/.business.WeiboRemoteServiceHolder",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices",
+    "org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices",
+    "com.android.systemui/.ImageWallpaper",
+    "com.android.launcher3/.notification.NotificationListener",
+    "com.android.networkstack.inprocess/com.android.server.NetworkStackService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.android.systemui/.SystemUIService",
+    "com.sina.weibo/com.sina.push.service.SinaPushService",
+    "com.omarea.vtools/.AccessibilityScenceMode",
+    "com.sina.weibo/.business.WeiboService",
+    "com.sina.weibo/.wlog.service.WLogService",
+    "com.android.launcher3/com.android.quickstep.TouchInteractionService",
+    "org.mozilla.firefox/org.mozilla.fenix.session.PrivateNotificationService",
+    "com.thundercomm.localhost/.vhosts.VhostsService",
+    "com.sina.weibo/com.xiaomi.push.service.XMPushService",
+    "com.sina.weibo/.HotEventService"
+  ],
+  "width": 2340,
+  "height": 1080,
+  "views": [
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        129
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*1920",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "5139735c331ab7efb1330abd3f86b441",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*1776",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "c2ec579fe8eb34f84022f5cce9e59352",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*1776",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "2de49ce3e56874d49e2f9fa875bf601e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/searchv2_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*1776",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/searchv2_container[text]None[enabled,,]",
+      "view_str": "a4e45449633aa96fb45a7755b7462808",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/searchv2_container"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5,
+        6,
+        10,
+        21,
+        117
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*1776",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/container[text]None[enabled,,]",
+      "view_str": "94ce1bb186ec11e1b040c821dc89dd90",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/container"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/searchHeadView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*1776",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/searchHeadView[text]None[enabled,,]",
+      "view_str": "9a6ccff580cafeb41288480d809064a9",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/searchHeadView"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        8,
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1080
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/headBackView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 6,
+      "size": "1080*1080",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/headBackView[text]None[enabled,,]",
+      "view_str": "3b699f300d9624b75df02b2320249f9c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/headBackView"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1080
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*1080",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "3d5b5c002dbf8d08d5cf39e8e2a1544f",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1080
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "1080*1080",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "1d9bdb4c1e9f5f1b1fee9eb43b8b1a0e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          72
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 9,
+      "size": "1080*72",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "1d9bdb4c1e9f5f1b1fee9eb43b8b1a0e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          202
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/toolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 10,
+      "size": "1080*202",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/toolbar[text]None[enabled,,]",
+      "view_str": "5429d32e0a0cebd47345e905925edc0b",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/toolbar"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          202
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/rl_search_result_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*202",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/rl_search_result_bar[text]None[enabled,,]",
+      "view_str": "9ef81956b6dedd85d896f93a22936bb9",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/rl_search_result_bar"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13,
+        15,
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          72
+        ],
+        [
+          1080,
+          202
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/real_search_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1080*130",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/real_search_bar[text]None[enabled,,]",
+      "view_str": "4ec3207d311893cb9c06516273acb0cb",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/real_search_bar"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          24,
+          90
+        ],
+        [
+          96,
+          184
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/back_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "72*94",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/back_layout[text]None[enabled,,]",
+      "view_str": "a3ac4b9c80c6af06e6a3c6aada6cea29",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/back_layout"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          24,
+          92
+        ],
+        [
+          72,
+          182
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/back",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "48*90",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/back[text]None[enabled,,]",
+      "view_str": "cfb826ba4bff5d5dbc362fa147d63ad9",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/back"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          90
+        ],
+        [
+          942,
+          184
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/searchBar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 15,
+      "size": "846*94",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/searchBar[text]None[enabled,,]",
+      "view_str": "b657b38b2d4ceac057184cc5a2e0d34c",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/searchBar"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          90
+        ],
+        [
+          942,
+          184
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/ly_left",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "846*94",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/ly_left[text]None[enabled,,]",
+      "view_str": "8afb28167ce46248ddf37387b292cf8c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/ly_left"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u641c\u7d22\u56fe\u6807",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          114,
+          98
+        ],
+        [
+          192,
+          176
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/iv_search_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "78*78",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/iv_search_icon[text]None[enabled,,]",
+      "view_str": "3ac857e023bd50a1ccbf5497bbf8b763",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/iv_search_icon"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          90
+        ],
+        [
+          942,
+          184
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/tv_search_keyword",
+      "checked": false,
+      "text": "#\u5973\u7ae5\u88ab\u54ac\u6848\u4ee3\u7406\u5f8b\u5e08\u547c\u5401\u505c\u6b62\u4e89\u5435#",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "744*94",
+      "signature": "[class]android.widget.EditText[resource_id]com.sina.weibo:id/tv_search_keyword[text]#\u5973\u7ae5\u88ab\u54ac\u6848\u4ee3\u7406\u5f8b\u5e08\u547c\u5401\u505c\u6b62\u4e89\u5435#[enabled,,]",
+      "view_str": "d11f557e6f7b9f2c18c59cbc03b0652f",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.sina.weibo:id/tv_search_keyword"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          942,
+          92
+        ],
+        [
+          1056,
+          182
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/right_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 19,
+      "size": "114*90",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/right_layout[text]None[enabled,,]",
+      "view_str": "279062e68f3b48de534f881942f70818",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/right_layout"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          966,
+          92
+        ],
+        [
+          1056,
+          182
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/btn_top_share",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "90*90",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/btn_top_share[text]None[enabled,,]",
+      "view_str": "21a40787345f54430259db508b96a729",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/btn_top_share"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/refreshLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 21,
+      "size": "1080*1424",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/refreshLayout[text]None[enabled,,]",
+      "view_str": "b89646eb7481d4c171539c77c1972b50",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/refreshLayout"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          202
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1080*0",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "069b21128464e22d19b4a723b1ec178a",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          202
+        ],
+        [
+          540,
+          112
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/srl_classics_center",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "0*-90",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/srl_classics_center[text]None[enabled,,]",
+      "view_str": "3210762fa47ac516cd9b536bb3a073cf",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/srl_classics_center"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25,
+        75
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/coordinator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 24,
+      "size": "1080*1424",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/coordinator[text]None[enabled,,]",
+      "view_str": "e67c829d50e0445cf6065e58becfc9ed",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/coordinator"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          806
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/appbar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "1080*604",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/appbar[text]None[enabled,,]",
+      "view_str": "18879e79ea81e2eeb1a55167e5515b9e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/appbar"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/ct_search",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "1080*478",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/ct_search[text]None[enabled,,]",
+      "view_str": "702ae536ddaeaaa5f1a254806e9950de",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/ct_search"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        28
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/lay_header",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "1080*478",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/lay_header[text]None[enabled,,]",
+      "view_str": "e0342cc8e6a97b2729ef277c810fb148",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/lay_header"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "1080*478",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "4347b32dae02364a0948987e538f5dda",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        30
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "1080*478",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "67e4f0bbf2d0faf36921804f05ed7e21",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31,
+        32,
+        43,
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/thelayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "1080*478",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/thelayout[text]None[enabled,,]",
+      "view_str": "e2e449abbe6a83b586ea75cc6097ec4a",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/thelayout"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          202
+        ],
+        [
+          1080,
+          412
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/bigpic",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "1080*210",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/bigpic[text]None[enabled,,]",
+      "view_str": "c1a9d308f4d2c38235e633bcf451d68c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/bigpic"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 6,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        33,
+        34,
+        36,
+        37,
+        38,
+        40
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          244
+        ],
+        [
+          1080,
+          514
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/picandtext",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 32,
+      "size": "1080*270",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/picandtext[text]None[enabled,,]",
+      "view_str": "a1a94b13e7c8f6c1bd237fe91dd6b2e4",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/picandtext"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          244
+        ],
+        [
+          1080,
+          367
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/top_mask",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "1080*123",
+      "signature": "[class]android.view.View[resource_id]com.sina.weibo:id/top_mask[text]None[enabled,,]",
+      "view_str": "6c5e3dd3c134206ee946efcf97935590",
+      "content_free_signature": "[class]android.view.View[resource_id]com.sina.weibo:id/top_mask"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        35
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          273,
+          259
+        ],
+        [
+          1080,
+          322
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/title_ll",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 34,
+      "size": "807*63",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/title_ll[text]None[enabled,,]",
+      "view_str": "0d3d52732bff688fd06927d06140dc17",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/title_ll"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          303,
+          259
+        ],
+        [
+          1044,
+          322
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/title",
+      "checked": false,
+      "text": "#\u5973\u7ae5\u88ab\u54ac\u6848\u4ee3\u7406\u5f8b\u5e08\u547c\u5401\u505c\u6b62\u4e89\u5435#",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "741*63",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/title[text]#\u5973\u7ae5\u88ab\u54ac\u6848\u4ee3\u7406\u5f8b\u5e08\u547c\u5401\u505c\u6b62\u4e89\u5435#[enabled,,]",
+      "view_str": "e23335cbea0b99c0ce5ea30cc8e00c1e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/title"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          346
+        ],
+        [
+          1080,
+          514
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/header_mask_bg",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 36,
+      "size": "1080*168",
+      "signature": "[class]android.view.View[resource_id]com.sina.weibo:id/header_mask_bg[text]None[enabled,,]",
+      "view_str": "9e637aa6f02c6a536ba0af542d7200b9",
+      "content_free_signature": "[class]android.view.View[resource_id]com.sina.weibo:id/header_mask_bg"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          33,
+          244
+        ],
+        [
+          279,
+          478
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/picBord",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 37,
+      "size": "246*234",
+      "signature": "[class]android.view.View[resource_id]com.sina.weibo:id/picBord[text]None[enabled,,]",
+      "view_str": "824c19f4e3151914023ffbb9e6c547d9",
+      "content_free_signature": "[class]android.view.View[resource_id]com.sina.weibo:id/picBord"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          39,
+          250
+        ],
+        [
+          273,
+          484
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/pic",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 38,
+      "size": "234*234",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/pic[text]None[enabled,,]",
+      "view_str": "344620f3d35a60f3e614a91d743b4df0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/pic"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          39,
+          250
+        ],
+        [
+          273,
+          484
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "234*234",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "6ddb40a8c328b6518e631d842b6d2faa",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        41,
+        42
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          303,
+          344
+        ],
+        [
+          960,
+          484
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 40,
+      "size": "657*140",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/content[text]None[enabled,,]",
+      "view_str": "f32713491ad89b279a63ca94d6abda82",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/content"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          303,
+          374
+        ],
+        [
+          924,
+          420
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/content_midtx",
+      "checked": false,
+      "text": "\u4eca\u65e5\u9605\u8bfb931\u4e07  \u4eca\u65e5\u8ba8\u8bba284  \u8be6\u60c5>",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "621*46",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/content_midtx[text]\u4eca\u65e5\u9605\u8bfb931\u4e07  \u4eca\u65e5\u8ba8\u8bba284  \u8be6\u60c5>[enabled,,]",
+      "view_str": "4f1b96c6a09863482d0c5fc59683e3f4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/content_midtx"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          303,
+          438
+        ],
+        [
+          850,
+          484
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/content_downtx",
+      "checked": false,
+      "text": "Host\uff1a\u897f\u90e8\u51b3\u7b56 | 19\u5bb6\u5a92\u4f53\u53d1\u5e03",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 42,
+      "size": "547*46",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/content_downtx[text]Host\uff1a\u897f\u90e8\u51b3\u7b56 | 19\u5bb6\u5a92\u4f53\u53d1\u5e03[enabled,,]",
+      "view_str": "6e27e7f8afe242648be4e67e6c0e6ffc",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/content_downtx"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          514
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/content_subtitle",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 43,
+      "size": "1080*166",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/content_subtitle[text]None[enabled,,]",
+      "view_str": "0662adeb8aa6f96b7077a6ec5b25e878",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/content_subtitle"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        45
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          514
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "1080*166",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "0cbda30406b38198e132657637de13a4",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          36,
+          514
+        ],
+        [
+          1044,
+          680
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 45,
+      "size": "1008*166",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4a8952450c37659def3d518c587d53fb",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          36,
+          514
+        ],
+        [
+          1044,
+          650
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/tvContent",
+      "checked": false,
+      "text": "\u5bfc\u8bed\uff1a10\u670823\u65e5\uff0c\u56db\u5ddd\u6210\u90fd\uff0c\u636e\u65b0\u534e\u793e\u6d88\u606f\uff0c\u5d07\u5dde\u88ab\n\u72d7\u54ac\u4f24\u5973\u7ae5\u5df2\u8f6c\u51faICU\uff0c\u76ee\u524d\u751f\u547d\u4f53\u5f81\u5e73\u7a33\uff0c...  [More]",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 45,
+      "temp_id": 46,
+      "size": "1008*136",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/tvContent[text]None[enabled,,]",
+      "view_str": "8fd237706c0241dc0607a1405b993031",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/tvContent"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          680
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/card_ext_170_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 47,
+      "size": "1080*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/card_ext_170_view[text]None[enabled,,]",
+      "view_str": "3b1b5c745fd1ecd606cb4b5f2ca0d120",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/card_ext_170_view"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          680
+        ],
+        [
+          1080,
+          806
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/search_tab_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 48,
+      "size": "1080*126",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/search_tab_container[text]None[enabled,,]",
+      "view_str": "d0dae2d89bd22f0566596a841470f932",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/search_tab_container"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        50
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          680
+        ],
+        [
+          1080,
+          805
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/search_sliding_tab_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "1080*125",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/search_sliding_tab_layout[text]None[enabled,,]",
+      "view_str": "81c6e324a97a15bd58e6ec21cdc64b45",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/search_sliding_tab_layout"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        51,
+        74
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          680
+        ],
+        [
+          1080,
+          805
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 50,
+      "size": "1080*125",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f82bd347a9ffe85094133ea8e07f74dc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        52
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          680
+        ],
+        [
+          1080,
+          805
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "1080*125",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ed837e0c5e9e701d69049e1b7ad4a166",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        53,
+        73
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          680
+        ],
+        [
+          1080,
+          805
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/mylayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "1080*125",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/mylayout[text]None[enabled,,]",
+      "view_str": "eb8fc5dbe59409d52d1bbf0d237a4a2e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/mylayout"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        54,
+        72
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          681
+        ],
+        [
+          969,
+          805
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/rl_column",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "969*124",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/rl_column[text]None[enabled,,]",
+      "view_str": "4032ec9dc2fc9ab840eba11d5a67894e",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/rl_column"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        55
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          681
+        ],
+        [
+          969,
+          805
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 54,
+      "size": "969*124",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "13e13474cfa053c31d1beeed710b53b3",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        56
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          681
+        ],
+        [
+          969,
+          805
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/hroizontalscoll",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.HorizontalScrollView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "969*124",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]com.sina.weibo:id/hroizontalscoll[text]None[enabled,,]",
+      "view_str": "c0cc7a05fda6ed60528efeefd60a54a9",
+      "content_free_signature": "[class]android.widget.HorizontalScrollView[resource_id]com.sina.weibo:id/hroizontalscoll"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        57,
+        60,
+        63,
+        66,
+        69
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          681
+        ],
+        [
+          969,
+          805
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 56,
+      "size": "969*124",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2a7f9a3c16d322c78c49203ae2cb43fd",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        58
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          700
+        ],
+        [
+          177,
+          785
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 57,
+      "size": "93*85",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root[text]None[enabled,,]",
+      "view_str": "b38dce80e61a24d766e8e93167502533",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        59
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          700
+        ],
+        [
+          177,
+          785
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 57,
+      "temp_id": 58,
+      "size": "93*85",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "18b024d20e924c9aae2f2754b5575158",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          700
+        ],
+        [
+          177,
+          785
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/search_item_text",
+      "checked": false,
+      "text": "ALL",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 58,
+      "temp_id": 59,
+      "size": "93*85",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text[text]ALL[enabled,,selected]",
+      "view_str": "ee75775864aaa86e11415239b320055c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        61
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          261,
+          704
+        ],
+        [
+          395,
+          781
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 60,
+      "size": "134*77",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root[text]None[enabled,,]",
+      "view_str": "b38dce80e61a24d766e8e93167502533",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        62
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          261,
+          704
+        ],
+        [
+          395,
+          781
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 61,
+      "size": "134*77",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4fbc3c2438ee726120d29c3e9301a856",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          261,
+          704
+        ],
+        [
+          395,
+          781
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/search_item_text",
+      "checked": false,
+      "text": "Latest",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 62,
+      "size": "134*77",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text[text]Latest[enabled,,]",
+      "view_str": "3a54fd1c7b068add533db3f8c1ffb8d4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          479,
+          704
+        ],
+        [
+          556,
+          781
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 63,
+      "size": "77*77",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root[text]None[enabled,,]",
+      "view_str": "b38dce80e61a24d766e8e93167502533",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        65
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          479,
+          704
+        ],
+        [
+          556,
+          781
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 63,
+      "temp_id": 64,
+      "size": "77*77",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "da0c88aee0fadb1bc4b949f9e4f341a5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          479,
+          704
+        ],
+        [
+          556,
+          781
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/search_item_text",
+      "checked": false,
+      "text": "Hot",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 65,
+      "size": "77*77",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text[text]Hot[enabled,,]",
+      "view_str": "f3e9c8c92832d8b7e41ef69565ee5af7",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        67
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          640,
+          704
+        ],
+        [
+          787,
+          781
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 66,
+      "size": "147*77",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root[text]None[enabled,,]",
+      "view_str": "b38dce80e61a24d766e8e93167502533",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        68
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          640,
+          704
+        ],
+        [
+          787,
+          781
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 66,
+      "temp_id": 67,
+      "size": "147*77",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "63b88ea2c1023625cb9925340c8861bb",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          640,
+          704
+        ],
+        [
+          787,
+          781
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/search_item_text",
+      "checked": false,
+      "text": "Videos",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 68,
+      "size": "147*77",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text[text]Videos[enabled,,]",
+      "view_str": "9b70c61df526e4d06268386fef8a2c66",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        70
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          871,
+          704
+        ],
+        [
+          969,
+          781
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 69,
+      "size": "98*77",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root[text]None[enabled,,]",
+      "view_str": "b38dce80e61a24d766e8e93167502533",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/root"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        71
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          871,
+          704
+        ],
+        [
+          969,
+          781
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 70,
+      "size": "98*77",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6b1c167c5ac4e2b26e45d25105c58387",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          871,
+          704
+        ],
+        [
+          969,
+          781
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/search_item_text",
+      "checked": false,
+      "text": "Images",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 71,
+      "size": "98*77",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text[text]Images[enabled,,]",
+      "view_str": "b23c94c3d23543503f8e5d480365158d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/search_item_text"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          969,
+          681
+        ],
+        [
+          969,
+          804
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/shade_right",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 72,
+      "size": "0*123",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/shade_right[text]None[enabled,,]",
+      "view_str": "7f172c3ec5f6a25b075f64b46b08649e",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/shade_right"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          969,
+          681
+        ],
+        [
+          1080,
+          805
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/button_more_columns",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 73,
+      "size": "111*124",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/button_more_columns[text]None[enabled,,]",
+      "view_str": "ea02543d4e55acd3f30c67eb94822d47",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/button_more_columns"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          806
+        ],
+        [
+          1080,
+          805
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/channel_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 74,
+      "size": "1080*-1",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/channel_layout[text]None[enabled,,]",
+      "view_str": "8a50a6efa492550f9285ab96f56e69d2",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/channel_layout"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        76,
+        114
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          806
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/viewpager",
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 75,
+      "size": "1080*820",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]com.sina.weibo:id/viewpager[text]None[enabled,,]",
+      "view_str": "76ff80fa8dbf981c5a408b9793495989",
+      "content_free_signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]com.sina.weibo:id/viewpager"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        77,
+        112
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          806
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/flow_stream_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 75,
+      "temp_id": 76,
+      "size": "1080*820",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/flow_stream_container[text]None[enabled,,]",
+      "view_str": "e3c73911e221afbff8e2254022c5868e",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/flow_stream_container"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        78
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          806
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/flow_stream_pull_down",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 76,
+      "temp_id": 77,
+      "size": "1080*820",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/flow_stream_pull_down[text]None[enabled,,]",
+      "view_str": "f1fd1cf335253e14994a2c3b5dbddaf5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/flow_stream_pull_down"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        79,
+        81
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          806
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/view_recycler",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 77,
+      "temp_id": 78,
+      "size": "1080*820",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.sina.weibo:id/view_recycler[text]None[enabled,,]",
+      "view_str": "5203121cb089e0aa482c42af68d7f443",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.sina.weibo:id/view_recycler"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        80
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          806
+        ],
+        [
+          1080,
+          836
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 78,
+      "temp_id": 79,
+      "size": "1080*30",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "31e3b6eacf1c14bfdef9608adc2796a1",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          806
+        ],
+        [
+          1080,
+          836
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 80,
+      "size": "1080*30",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "a98f2c90f6719912ca5437bddab68932",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        82
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          836
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 78,
+      "temp_id": 81,
+      "size": "1080*790",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4dc056587aeb1a682a587173e01b4cf4",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        83
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          836
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 82,
+      "size": "1080*790",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "dbdbb282eb4a6d743d4a03746c0c36bc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        84,
+        90,
+        91,
+        93,
+        94
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          836
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 82,
+      "temp_id": 83,
+      "size": "1080*790",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2d1d8cd05dd6e198cd7d76aea1044ddd",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        85
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          836
+        ],
+        [
+          1080,
+          1003
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/mblogHeadtitle",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 83,
+      "temp_id": 84,
+      "size": "1080*167",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/mblogHeadtitle[text]None[enabled,,]",
+      "view_str": "28eb3ddaae809fd862305c11e6af3c79",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/mblogHeadtitle"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        86
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          836
+        ],
+        [
+          705,
+          1003
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 84,
+      "temp_id": 85,
+      "size": "705*167",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "89c0d3ad53e8515769387596fa04993d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        87,
+        88,
+        89
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          30,
+          860
+        ],
+        [
+          162,
+          1001
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 85,
+      "temp_id": 86,
+      "size": "132*141",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "fbd6135f0cf139f90055d1a67b4e8ad6",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          30,
+          860
+        ],
+        [
+          162,
+          1001
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 86,
+      "temp_id": 87,
+      "size": "132*141",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "71e90e8e29b212ee00597b22532583bb",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          40,
+          881
+        ],
+        [
+          154,
+          995
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 86,
+      "temp_id": 88,
+      "size": "114*114",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "71e90e8e29b212ee00597b22532583bb",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          117,
+          956
+        ],
+        [
+          159,
+          998
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 86,
+      "temp_id": 89,
+      "size": "42*42",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "71e90e8e29b212ee00597b22532583bb",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "\u3010#\u4ee3\u7406\u5f8b\u5e08\u56de\u5e94\u5973\u7ae5\u5bb6\u5c5e\u7b79\u6b3e200\u4e07\u4e89\u8bae#\uff1a\u5584\u6b3e\u8fd8\u6ca1\u6709\u52a8\uff0c\u8bf7\u505c\u6b62\u4e89\u5435\u3011#\u5973\u7ae5\u88ab\u54ac\u6848\u4ee3\u7406\u5f8b\u5e08\u547c\u5401\u505c\u6b62\u4e89\u5435# 10\u670823\u65e5\uff0c\u56db\u5ddd\u6210\u90fd\uff0c\u636e\u65b0\u534e\u793e\u6d88\u606f\uff0c\u5d07\u5dde\u88ab\u72d7\u54ac\u4f24\u5973\u7ae5\u5df2\u8f6c\u51faICU\uff0c\u76ee\u524d\u751f\u547d\u4f53\u5f81\u5e73\u7a33\uff0c\u6b63\u5728\u8be5\u9662\u8fdb\u884c\u540e\u7eed\u6cbb\u7597\u3002\u665a\u4e0a\uff0c\u8be5\u6848\u4ee3\u7406\u5f8b\u5e08@\u5468\u5146\u6210\u5f8b\u5e08 \u53d1\u6587\u547c\u5401\u8bf7\u505c\u6b62\u4e89\u5435\uff01\u5468\u5f8b\u79f0\uff0c\u5973\u7ae5\u7236\u6bcd\u53ea\u8981\u81ea\u5df1\u7684\u5b69\u5b50 \u200b... Full Text",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          36,
+          1024
+        ],
+        [
+          1044,
+          1451
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/contentTextView",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 83,
+      "temp_id": 90,
+      "size": "1008*427",
+      "signature": "[class]android.view.View[resource_id]com.sina.weibo:id/contentTextView[text]None[enabled,,]",
+      "view_str": "7086ac35eb1c76297e1426ce6b3f15b6",
+      "content_free_signature": "[class]android.view.View[resource_id]com.sina.weibo:id/contentTextView"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        92
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1475
+        ],
+        [
+          540,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/weibo_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 83,
+      "temp_id": 91,
+      "size": "540*151",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/weibo_image[text]None[enabled,,]",
+      "view_str": "9ec5a1b6134df61e1ee6f91a5fbec2f3",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/weibo_image"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          36,
+          1475
+        ],
+        [
+          540,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/blog_picture_view",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 91,
+      "temp_id": 92,
+      "size": "504*151",
+      "signature": "[class]android.view.View[resource_id]com.sina.weibo:id/blog_picture_view[text]None[enabled,,]",
+      "view_str": "0072ea26dbb81fecf254576f04659243",
+      "content_free_signature": "[class]android.view.View[resource_id]com.sina.weibo:id/blog_picture_view"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2177
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/ext_multiple_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 83,
+      "temp_id": 93,
+      "size": "1080*-551",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/ext_multiple_view[text]None[enabled,,]",
+      "view_str": "b3f17c1c79a26a1ccc42bdc3c497986d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/ext_multiple_view"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        95,
+        100,
+        105,
+        106,
+        111
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2183
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/ly_bottom_btns",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 83,
+      "temp_id": 94,
+      "size": "1080*-557",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/ly_bottom_btns[text]None[enabled,,]",
+      "view_str": "0933d9012e4d5fa6b52c130261dcdc11",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.sina.weibo:id/ly_bottom_btns"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Repost244",
+      "children": [
+        96
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2183
+        ],
+        [
+          360,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/leftButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 94,
+      "temp_id": 95,
+      "size": "360*-557",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/leftButton[text]None[enabled,,]",
+      "view_str": "749f8a2301ca1337943ae78b10eb5447",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/leftButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        97,
+        98
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2183
+        ],
+        [
+          360,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/lyButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 95,
+      "temp_id": 96,
+      "size": "360*-557",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/lyButton[text]None[enabled,,]",
+      "view_str": "d006ed765a7878b4a4abe964541e6830",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/lyButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Like",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          94,
+          2183
+        ],
+        [
+          175,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/ivButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 96,
+      "temp_id": 97,
+      "size": "81*-557",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/ivButton[text]None[enabled,,]",
+      "view_str": "3d0dcb4dc3cb5fbe255c2cef5d6fe07b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/ivButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        99
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          175,
+          2207
+        ],
+        [
+          265,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 96,
+      "temp_id": 98,
+      "size": "90*-581",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "5bb7172b71160163bbe8ccef7e85a5c0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          175,
+          2208
+        ],
+        [
+          265,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/tvButton",
+      "checked": false,
+      "text": "244",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 98,
+      "temp_id": 99,
+      "size": "90*-582",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/tvButton[text]244[enabled,,]",
+      "view_str": "89c3d99d1ec4687e21ec97dfa63f4019",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/tvButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Comment2.4K",
+      "children": [
+        101
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          2183
+        ],
+        [
+          720,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/midButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 94,
+      "temp_id": 100,
+      "size": "360*-557",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/midButton[text]None[enabled,,]",
+      "view_str": "2bd7b1ea4c522060652a4107ad6cf9bf",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/midButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        102,
+        103
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          2183
+        ],
+        [
+          720,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/lyButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 100,
+      "temp_id": 101,
+      "size": "360*-557",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/lyButton[text]None[enabled,,]",
+      "view_str": "3073fb36b0c037dbfba94c9b33df93a4",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/lyButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Like",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          448,
+          2183
+        ],
+        [
+          529,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/ivButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 101,
+      "temp_id": 102,
+      "size": "81*-557",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/ivButton[text]None[enabled,,]",
+      "view_str": "26a3115d4a6cac11db558c28f6fc632c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/ivButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        104
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          529,
+          2207
+        ],
+        [
+          632,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 101,
+      "temp_id": 103,
+      "size": "103*-581",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "49b821f9005300ea8ef219afb9cb81f7",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          529,
+          2208
+        ],
+        [
+          632,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/tvButton",
+      "checked": false,
+      "text": "2.4K",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 103,
+      "temp_id": 104,
+      "size": "103*-582",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/tvButton[text]2.4K[enabled,,]",
+      "view_str": "8911cc9b957b41c20f8d545c5cdabd63",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/tvButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          2183
+        ],
+        [
+          360,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 94,
+      "temp_id": 105,
+      "size": "0*-557",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "e65fd58eb64ca05edbaffb17a67eb788",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        107
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          2183
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/rightButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 94,
+      "temp_id": 106,
+      "size": "360*-557",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/rightButton[text]None[enabled,,]",
+      "view_str": "c55183c8f5624bf2a99b8c18b457eb9b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/rightButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        108,
+        109
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          2183
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/lyButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 106,
+      "temp_id": 107,
+      "size": "360*-557",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/lyButton[text]None[enabled,,]",
+      "view_str": "4a9e8a193d1d51455f0ddd5771fe5692",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sina.weibo:id/lyButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Like",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          813,
+          2183
+        ],
+        [
+          894,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/ivButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 107,
+      "temp_id": 108,
+      "size": "81*-557",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/ivButton[text]None[enabled,,]",
+      "view_str": "69fe3baf184104eba2ee70a5d2b07873",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sina.weibo:id/ivButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        110
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          894,
+          2207
+        ],
+        [
+          986,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 107,
+      "temp_id": 109,
+      "size": "92*-581",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "332706edb4111710d0bc660935e6ee91",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          894,
+          2208
+        ],
+        [
+          986,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/tvButton",
+      "checked": false,
+      "text": "21K",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 109,
+      "temp_id": 110,
+      "size": "92*-582",
+      "signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/tvButton[text]21K[enabled,,]",
+      "view_str": "65ca9eb29a33f40805c2cd674440f9cf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.sina.weibo:id/tvButton"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          2183
+        ],
+        [
+          720,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 94,
+      "temp_id": 111,
+      "size": "0*-557",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "e65fd58eb64ca05edbaffb17a67eb788",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        113
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          652,
+          1458
+        ],
+        [
+          1059,
+          1626
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 76,
+      "temp_id": 112,
+      "size": "407*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2b3f85f27d253f59e3381d7af8dc8a7c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          718,
+          1513
+        ],
+        [
+          1000,
+          1570
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u67e5\u770b\u5b9e\u65f6\u8ba8\u8bba*&*",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 112,
+      "temp_id": 113,
+      "size": "282*57",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]\u67e5\u770b\u5b9e\u65f6\u8ba8\u8bba*&*[enabled,,]",
+      "view_str": "0e757b62762dfc20571fede483719bab",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        115
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          806
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/flow_stream_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 75,
+      "temp_id": 114,
+      "size": "0*820",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/flow_stream_container[text]None[enabled,,]",
+      "view_str": "e9f64adba696d9531b87b07e1d588ee2",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sina.weibo:id/flow_stream_container"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        116
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          806
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/flow_stream_pull_down",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 114,
+      "temp_id": 115,
+      "size": "0*820",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/flow_stream_pull_down[text]None[enabled,,]",
+      "view_str": "f1fd1cf335253e14994a2c3b5dbddaf5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/flow_stream_pull_down"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          806
+        ],
+        [
+          1080,
+          1626
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/view_recycler",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 115,
+      "temp_id": 116,
+      "size": "0*820",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.sina.weibo:id/view_recycler[text]None[enabled,,]",
+      "view_str": "bac06897f7b3ae16ca8ff32a20e75254",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.sina.weibo:id/view_recycler"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        118
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1626
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "com.sina.weibo:id/fl_buttons_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 117,
+      "size": "1080*150",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/fl_buttons_container[text]None[enabled,,]",
+      "view_str": "1a2d6ea6fed0a18551f39d429c883127",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.sina.weibo:id/fl_buttons_container"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        119
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1626
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 117,
+      "temp_id": 118,
+      "size": "1080*150",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "34efd2d67ce4c387c037c65ccd14293e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        120,
+        123,
+        127
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1626
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 118,
+      "temp_id": 119,
+      "size": "1080*150",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4d81615ff0a44cf043afdb56b1cb2812",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        121,
+        122
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1626
+        ],
+        [
+          190,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 119,
+      "temp_id": 120,
+      "size": "190*150",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "14bc9e2fa99b787b9652d3179be73464",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          24,
+          1677
+        ],
+        [
+          72,
+          1725
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 120,
+      "temp_id": 121,
+      "size": "48*48",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "459817eabf9e15307d4b6147155459ec",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Follow",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          78,
+          1676
+        ],
+        [
+          190,
+          1725
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Follow",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 120,
+      "temp_id": 122,
+      "size": "112*49",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Follow[enabled,,]",
+      "view_str": "7f69967510b664e4d13ca7b2b194f1b2",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        124
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          190,
+          1626
+        ],
+        [
+          952,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 119,
+      "temp_id": 123,
+      "size": "762*150",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "b489a2f5b0145beeace52c1615063a66",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        125,
+        126
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          226,
+          1653
+        ],
+        [
+          928,
+          1749
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 123,
+      "temp_id": 124,
+      "size": "702*96",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4d39df8d17d95328bdf032cbac710f6c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          271,
+          1671
+        ],
+        [
+          331,
+          1731
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 124,
+      "temp_id": 125,
+      "size": "60*60",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "df1fb9c17a0ac40ecffd73c807f8284b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          352,
+          1653
+        ],
+        [
+          928,
+          1749
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Discuss with 559people",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 124,
+      "temp_id": 126,
+      "size": "576*96",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Discuss with 559people[enabled,,]",
+      "view_str": "300a3124682f8e4cf4d1f045c44d1141",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        128
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          952,
+          1626
+        ],
+        [
+          1079,
+          1776
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 119,
+      "temp_id": 127,
+      "size": "127*150",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "c46d4a51c280cbeb094ba776f08a84e5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          985,
+          1671
+        ],
+        [
+          1045,
+          1731
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 127,
+      "temp_id": 128,
+      "size": "60*60",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "459817eabf9e15307d4b6147155459ec",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.sina.weibo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1776
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 129,
+      "size": "1080*144",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "ba805d6ef924bba09d91ce7ac06d047a",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}
